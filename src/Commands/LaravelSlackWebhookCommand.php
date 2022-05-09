@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace RyanChandler\LaravelSlackWebhook\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelSlackWebhookCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-slack-webhook';
 
     public $description = 'My command';
 
