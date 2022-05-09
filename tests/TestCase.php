@@ -1,10 +1,10 @@
 <?php
 
-namespace RyanChandler\LaravelSlackWebhook\Tests;
+namespace RyanChandler\SlackWebhook\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use RyanChandler\LaravelSlackWebhook\LaravelSlackWebhookServiceProvider;
+use RyanChandler\SlackWebhook\SlackWebhookServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,14 +13,14 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'RyanChandler\\LaravelSlackWebhook\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'RyanChandler\\SlackWebhook\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 
     protected function getPackageProviders($app)
     {
         return [
-            LaravelSlackWebhookServiceProvider::class,
+            SlackWebhookServiceProvider::class,
         ];
     }
 

@@ -55,7 +55,7 @@ php artisan vendor:publish --tag="laravel-slack-webhook-views"
 ## Usage
 
 ```php
-$laravelSlackWebhook = new RyanChandler\LaravelSlackWebhook();
+$laravelSlackWebhook = new RyanChandler\SlackWebhook();
 echo $laravelSlackWebhook->echoPhrase('Hello, RyanChandler!');
 ```
 

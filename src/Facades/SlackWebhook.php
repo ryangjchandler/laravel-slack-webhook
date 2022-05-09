@@ -1,13 +1,13 @@
 <?php
 
-namespace RyanChandler\LaravelSlackWebhook\Facades;
+namespace RyanChandler\SlackWebhook\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \RyanChandler\LaravelSlackWebhook\LaravelSlackWebhook
+ * @see \RyanChandler\SlackWebhook\SlackWebhook
  */
-class LaravelSlackWebhook extends Facade
+class SlackWebhook extends Facade
 {
     protected static function getFacadeAccessor()
     {

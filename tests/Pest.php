@@ -1,5 +1,5 @@
 <?php
 
-use RyanChandler\LaravelSlackWebhook\Tests\TestCase;
+use RyanChandler\SlackWebhook\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

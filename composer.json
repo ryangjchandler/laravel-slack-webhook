@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "RyanChandler\\LaravelSlackWebhook\\": "src",
-            "RyanChandler\\LaravelSlackWebhook\\Database\\Factories\\": "database/factories"
+            "RyanChandler\\SlackWebhook\\": "src",
+            "RyanChandler\\SlackWebhook\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RyanChandler\\LaravelSlackWebhook\\Tests\\": "tests"
+            "RyanChandler\\SlackWebhook\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RyanChandler\\LaravelSlackWebhook\\LaravelSlackWebhookServiceProvider"
+                "RyanChandler\\SlackWebhook\\SlackWebhookServiceProvider"
             ],
             "aliases": {
-                "LaravelSlackWebhook": "RyanChandler\\LaravelSlackWebhook\\Facades\\LaravelSlackWebhook"
+                "SlackWebhook": "RyanChandler\\SlackWebhook\\Facades\\SlackWebhook"
             }
         }
     },

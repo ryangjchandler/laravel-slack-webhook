@@ -1,5 +1,5 @@
 <?php
-// config for RyanChandler/LaravelSlackWebhook
+// config for RyanChandler/SlackWebhook
 return [
 
 ];
